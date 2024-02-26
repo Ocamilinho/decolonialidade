@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-log.css">
+    <link rel="stylesheet" href="javascript.js">
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Fazer Cadastro</title>
+</head>
+<body>
+    <div class="bg-body">
+        <img src="img/bg-deco.png" alt="">
+    </div>
+    <main>
+        <div class="log-cast-conteiner text-center">
+            <div class="title">
+                <p> Cadastre-se para mais</p>
+                <p>Decolonialidade</p>
+            </div>
+            
+                <form action="cadastro.php" class="cont-casd" method="POST">
+
+                    <div class="input-cont">
+                        <div class="input-box">
+                        <input id="nome" name="nome" method="POST" type="text"> 
+                        <div class="input-title">Nome</div>
+                    </div>
+                    <div class="input-box">
+                        <input id="Sobrenome" name="sobrenome" method="POST" type="text"> 
+                        <div class="input-title">Sobrenome</div>
+                    </div>
+                    <div class="input-box">
+                        <input id="email" name="email" method="POST" type="text"> 
+                        <div class="input-title">Email</div>
+                    </div>
+                    <div class="input-box">
+                        <input id="senha"  name="senha" method="POST" type="password"> 
+                        <div class="input-title">Senha</div>
+                    </div>
+                    <div class="input-box">
+                        <input id="senha" type="password"> 
+                        <div class="input-title">Confirme Senha</div>
+                    </div>
+                    <button id="btn-casd" class="btn-indic text-center" type="submit">
+                        Cadastrar
+                    </button>
+                </div>
+                <div class="divider">
+                    <hr>
+                    <p class="fs-6">ou</p>
+                    <hr>
+                </div>
+                <div class="indic">
+                    <a href="Login.html">
+                        <div class="btn-indic text-center  ">
+                            <a href="Login.html">Faça login</a>
+                        </div>
+                    </a>
+                </div>
+            </form>
+                
+                
+            </div>  
+        </main>
+</body>
+</html>
