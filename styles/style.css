@@ -24,7 +24,7 @@ header{
     display: block;
     top: 0%;
     width: 100%;
-    background: url(./public/backgrounds/bg-header.png);
+    background-image: url(../public/backgrounds/bg-header.png);
     background-size:cover;
     background-repeat: no-repeat;
     height: 50%;
